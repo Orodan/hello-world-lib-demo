@@ -3,6 +3,7 @@ import { FormsModule } from '@angular/forms';
 import { NgModule } from '@angular/core';
 
 import { HelloWorldModule } from 'hello-world-lib/dist/hello-world.module';
+import { NgSelectorModule } from 'ng-selector';
 
 import { AppComponent } from './app.component';
 
@@ -14,7 +15,8 @@ import { AppComponent } from './app.component';
   imports: [
     BrowserModule,
     FormsModule,
-    HelloWorldModule
+    HelloWorldModule,
+    NgSelectorModule
   ],
   providers: [],
   bootstrap: [AppComponent]

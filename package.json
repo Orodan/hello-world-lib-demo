@@ -21,10 +21,12 @@
     "@angular/platform-browser": "^5.0.0",
     "@angular/platform-browser-dynamic": "^5.0.0",
     "@angular/router": "^5.0.0",
+    "bootstrap": "^3.3.7",
     "core-js": "^2.4.1",
+    "hello-world-lib": "git+https://git@github.com/Orodan/hello-world-lib.git",
+    "ng-selector": "git+https://git@github.com/Orodan/ng-selector.git#develop",
     "rxjs": "^5.5.2",
-    "zone.js": "^0.8.14",
-    "hello-world-lib": "git+https://git@github.com/Orodan/hello-world-lib.git"
+    "zone.js": "^0.8.14"
   },
   "devDependencies": {
     "@angular/cli": "1.6.0",
